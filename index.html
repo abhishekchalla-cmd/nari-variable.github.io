@@ -1,0 +1,355 @@
+<html>
+	<head>
+		<title>Some Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale:1.0" />
+		<link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+		<style>
+			@font-face {
+				font-family: nari;
+				src: url('fonts/NariVariableGX.ttf');
+			}
+			body {
+				margin: 0;
+				font-family: nari;
+				font-size: 20px;
+				color: #e42e14;
+			}
+			a:link, a:visited {
+				color: #e42e14;
+				text-decoration: none;
+			}
+			h1 {
+				font-size: 100px;
+				margin:0;
+			}
+			h3 {
+				font-size: 50px;
+				margin:0;
+			}
+			.bordered-box {
+				/*border: 1px solid #e42e14;*/
+				background: #e42e14;
+			}
+			/*.rect-h {
+				height: 200px;
+			}*/
+			.container {
+				margin: auto;
+				max-width: 1200px;
+				width: 98vw;
+			}
+			.btn {
+				width: 100%;
+				padding: 40px;
+				font-size: 40px;
+				color: #fff;
+				background: #e42e14;
+				border: 0;
+				cursor: pointer;
+			}
+			.coverall {
+				text-align: center;
+			}
+			#master {
+				background:#e42e14;
+				color: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<header class="pa2">
+				<div class="fl w-50 tl">Nari Variable</div>
+				<div class="fl w-50 tr">
+					<a href="#use" style="margin-right: 20px">In Use</a>
+					<a href="#download">Download</a>
+				</div>
+			</header>
+			
+			<div id="master" class="dib ma2 pt4 pb4" style="width: calc(100% - 16px);">
+				<div class="pa3 flex items-center justify-center">
+					<div class="dib tc mb5">
+						<h1>Namaste!</h1>
+						<h3>Type anything here!</h3>
+					</div>
+				</div>
+				<div class="pa2">
+					<div class="fl w-100 w-33-ns pa1 flex justify-center">
+						<span class="mr2">Voice</span> <input type="range" min="1" max="5" class="w-80" />
+					</div>
+					<div class="fl w-100 w-34-ns pa1 flex justify-center">
+						<span class="mr2">Mindset</span> <input type="range" min="1" max="5" class="w-80" />
+					</div>
+					<div class="fl w-100 w-33-ns pa1 flex justify-center">
+						<span class="mr2">Fight</span> <input type="range" min="1" max="5" class="w-80" />
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<div class="fl w-50-ns w-100 flex pa2">
+					<div class="bordered-box">
+						<img src="images/1.jpg" />
+					</div>
+				</div>
+				<div class="fl w-50-ns w-100 flex pa2">
+					<div class="bordered-box">
+						<img src="images/2.jpg" />
+					</div>
+				</div>
+			</div>
+
+			<div class="dib justify-images">
+				<div class="fl w-100 tl pa2">Lorem Ipsum</div>
+
+				<div class="fl w-50-ns w-100 flex-justify-center pa2">
+					<div class="bordered-box w-100">
+						<img src="images/3.jpg" />
+					</div>
+				</div>
+				<div class="fl w-50-ns w-100 flex-justify-center pa2">
+					<div class="bordered-box w-100">
+						<img src="images/4.jpg" />
+					</div>
+				</div>
+				<div class="fl w-50-ns w-100 flex-justify-center pa2">
+					<div class="bordered-box w-100">
+						<img src="images/5.jpg" />
+					</div>
+				</div>
+				<div class="fl w-50-ns w-100 flex-justify-center pa2">
+					<div class="bordered-box w-100">
+						<img src="images/6.jpg" />
+					</div>
+				</div>
+				<div class="fl w-50-ns w-100 flex-justify-center pa2">
+					<div class="bordered-box w-100">
+						<img src="images/7.jpg" />
+					</div>
+				</div>
+				<div class="fl w-50-ns w-100 flex-justify-center pa2">
+					<div class="bordered-box w-100">
+						<img src="images/8.jpg" />
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<div class="fl w-50-ns w-100 pa2">
+					<div class="bordered-box">
+						<img src="images/9.jpg" />
+					</div>
+				</div>
+				<div class="fl w-50-ns w-100 pa2">
+					<div class="bordered-box">
+						<img src="images/10.jpg" />
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<div class="fl w-100 pa2">
+					<div class="bordered-box" style="height: 400px; background: #e42e14">
+
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<div class="fl w-33-ns w-100 pa2">
+					<div class="bordered-box">
+						<img src="images/11.jpg" />
+					</div>
+				</div>
+				<div class="fl w-33-ns w-100 pa2 flex justify-center">
+					<div class="bordered-box">
+						<img src="images/12.jpg" />
+					</div>
+				</div>
+				<div class="fl w-33-ns w-100 pa2">
+					<div class="bordered-box">
+						<img src="images/13.jpg" />
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<div class="fl w-100 pa2" id="about">
+					<div class="w-100">
+						<h3>About</h3>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<div class="fl w-50-ns w-100 pa2">
+					<div class="bordered-box square">
+					</div>
+				</div>
+				<div class="fl w-50-ns w-100 pa2">
+					<div class="bordered-box square">
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<div class="fl w-25-ns w-50 pa2">
+					<div class="bordered-box">
+						<img src="images/14.jpg" />
+					</div>
+				</div>
+				<div class="fl w-25-ns w-50 pa2">
+					<div class="bordered-box">
+						<img src="images/15.jpg" />
+					</div>
+				</div>
+				<div class="fl w-25-ns w-50 pa2">
+					<div class="bordered-box">
+						<img src="images/16.jpg" />
+					</div>
+				</div>
+				<div class="fl w-25-ns w-50 pa2">
+					<div class="bordered-box">
+						<img src="images/17.jpg" />
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<div class="fl w-100 pa2">
+					<div class="coverall"><span>Down with the patriarchy</span></div>
+				</div>
+				<div class="fl w-100" style="height: 200px">
+					<div class="fl w-50-l w-100 pa2">
+						<button onclick="location.href='buy.html'" class="btn">Buy</button>
+					</div>
+					<div class="fl w-50-l w-100 pa2" id="download">
+						<button onclick="location.href='download.html'" class="btn">Download PDF</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="justify-images">
+				<div class="fl w-100 pa2" id="use">Nari in use</div>
+				<div class="fl w-100 w-50-ns pa2">
+					<div class="bordered-box">
+						<img src="images/18.jpg" />
+					</div>
+				</div>
+				<div class="fl w-100 w-50-ns pa2">
+					<div class="bordered-box">
+						<img src="images/19.jpg" />
+					</div>
+				</div>
+				<div class="fl w-100 w-50-ns pa2">
+					<div class="bordered-box">
+						<img src="images/20.jpg" />
+					</div>
+				</div>
+				<div class="fl w-100 w-50-ns pa2">
+					<div class="bordered-box">
+						<img src="images/21.jpg" />
+					</div>
+				</div>
+				<div class="fl w-100 w-50-ns pa2">
+					<div class="bordered-box">
+						<img src="images/22.jpg" />
+					</div>
+				</div>
+				<div class="fl w-100 w-50-ns pa2">
+					<div class="bordered-box">
+						<img src="images/23.jpg" />
+					</div>
+				</div>
+				<div class="fl w-100 w-50-ns pa2">
+					<div class="bordered-box">
+						<img src="images/24.jpg" />
+					</div>
+				</div>
+				<div class="fl w-100 w-50-ns pa2">
+					<div class="bordered-box">
+						<img src="images/25.jpg" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script type="text/javascript">
+			function squarify() {
+				var squares = $(".square");
+				squares.map((index, e) => {
+					var square = squares.eq(index);
+					square.css("height", square.width() + "px");
+				});
+			}
+
+			function rectangularify() {
+				var rectSections = $(".justify-images");
+				for(i = 0; i < rectSections.length; i++) {
+					var rects = rectSections.eq(i).find('img');
+					var stdheight = rects.eq(0).css('height');
+					rects.css('height', stdheight);
+					rects.find('img').css('height', '100%');
+				}
+			}
+
+			function enlargeFont() {
+				var font = $(".coverall");
+				var width = font.width();
+				var innerSpan = font.find("span");
+				var innerSpanWidth = innerSpan.width();
+				var ratio = width/innerSpanWidth;
+				innerSpan.css("font-size", 19*ratio + "px");
+			}
+
+
+			function assignScrollToLinks() {
+				var links = $("a");
+				for (i=0; i < links.length; i++) {
+					var link = links.eq(i);
+					var target = link.attr("href");
+					if (target[0] === "#") {
+						link.click(function(event) {
+							event.preventDefault();
+							scrollToPosition($($(this).attr('href')));
+						});
+					}
+				}
+			}
+
+
+			function load_stack() {
+				assignScrollToLinks();
+			}
+
+			function resize_stack() {
+				squarify();
+				rectangularify();
+				enlargeFont();
+			}
+
+
+			$(window).on("resize",() => {
+				resize_stack();
+			});
+
+			$(window).on("load", () => {
+				resize_stack();
+				load_stack();
+			});
+
+
+			function scrollToPosition(element) {
+				var position = element[0].getBoundingClientRect().top;
+				$('body, html').animate({
+					scrollTop: position
+				}, 500);
+			}
+		</script>
+	</body>
+</html>
